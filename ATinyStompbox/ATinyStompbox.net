@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/dusjagr/Documents/8bit_Mixtape/Stompbox/ATinyStompbox/ATinyStompbox.sch)
-    (date "Sun Jul 15 16:48:52 2018")
+    (source /home/dusjagr/Documents/8bit_Mixtape/Stompbox/ATinyStomp/ATinyStompbox/ATinyStompbox.sch)
+    (date "Mon Jul 16 11:50:26 2018")
     (tool "Eeschema 4.0.7-e0-6372~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -601,16 +601,16 @@
   (libraries
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical switches)
-      (uri /usr/share/kicad/library/switches.lib))
     (library (logical regul)
       (uri /usr/share/kicad/library/regul.lib))
-    (library (logical mixtape_schematics)
-      (uri /home/dusjagr/Documents/8bit_Mixtape/Stompbox/ATinyStompbox/mixtape_schematics.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical atmel)
-      (uri /usr/share/kicad/library/atmel.lib)))
+      (uri /usr/share/kicad/library/atmel.lib))
+    (library (logical switches)
+      (uri /usr/share/kicad/library/switches.lib))
+    (library (logical mixtape_schematics)
+      (uri /home/dusjagr/Documents/8bit_Mixtape/Stompbox/ATinyStomp/ATinyStompbox/mixtape_schematics.lib)))
   (nets
     (net (code 1) (name "Net-(D-NEO1-Pad2)")
       (node (ref D-NEO1) (pin 2))

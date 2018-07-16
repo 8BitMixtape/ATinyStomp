@@ -1,0 +1,227 @@
+Cmp-Mod V01 Created by PcbNew   date = Sat Jul 14 00:10:29 2018
+
+BeginCmp
+TimeStamp = 5B46FCB0
+Path = /5B46FB0C
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCB6
+Path = /5B46FB9F
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCBC
+Path = /5B46FC28
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCC2
+Path = /5B4744DB
+Reference = C4;
+ValeurCmp = 10uF;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCEE
+Path = /5B474264
+Reference = J5;
+ValeurCmp = CONN_01X02_MALE;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCF4
+Path = /5B47020D
+Reference = R1;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FCFA
+Path = /5B470252
+Reference = R2;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD00
+Path = /5B471448
+Reference = R3;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD06
+Path = /5B471586
+Reference = R4;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD0C
+Path = /5B4715F6
+Reference = R5;
+ValeurCmp = 22k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD12
+Path = /5B47017B
+Reference = R6;
+ValeurCmp = 22K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD18
+Path = /5B4700A8
+Reference = R7;
+ValeurCmp = 22K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD1E
+Path = /5B472143
+Reference = R8;
+ValeurCmp = 330;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD24
+Path = /5B46F650
+Reference = R9;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD2A
+Path = /5B46F826
+Reference = R10;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD33
+Path = /5B46F2B5
+Reference = RV1;
+ValeurCmp = POT 10K lin;
+IdModule  = 8BitMixtapes_all:Mixtape_Pot_Alps_RK09K_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B46FD45
+Path = /5B46F319
+Reference = RV3;
+ValeurCmp = POT 10k;
+IdModule  = 8BitMixtapes_all:Mixtape_Pot_Alps_RK09K_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B477DCB
+Path = /5B478157
+Reference = U1;
+ValeurCmp = ATTINY85-20SU;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B478A33
+Path = /5B4788C7
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED_D3.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B478A39
+Path = /5B478B78
+Reference = R11;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B52E2C4
+Path = /5B46F454
+Reference = J3;
+ValeurCmp = JACK_2P;
+IdModule  = SparkFun-Connectors:AUDIO-JACK-.25-INCH-HORIZ-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E781
+Path = /5B46F5DD
+Reference = J1;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E807
+Path = /5B46F160
+Reference = RV2;
+ValeurCmp = POT 10K lin;
+IdModule  = Potentiometers:Potentiometer_Alps_RK09L_Sleve_Single_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E824
+Path = /5B47976C
+Reference = SW1;
+ValeurCmp = SW_Push;
+IdModule  = Buttons_Switches_SMD:SW_SPST_B3S-1000;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E83D
+Path = /5B479808
+Reference = SW2;
+ValeurCmp = SW_Push;
+IdModule  = Buttons_Switches_SMD:SW_SPST_B3SL-1002P;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E856
+Path = /5B479C56
+Reference = SW3;
+ValeurCmp = SW_Push;
+IdModule  = Buttons_Switches_THT:SW_PUSH_6mm_h7.3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E7EA
+Path = /5B46F49F
+Reference = J4;
+ValeurCmp = JACK_TRS_6PINS;
+IdModule  = 8BitMixtapes_all:AUDIO-JACK-TRS-SMD;
+EndCmp
+
+BeginCmp
+TimeStamp = 5B48E7CD
+Path = /5B46F570
+Reference = J2;
+ValeurCmp = JACK_TRS_6PINS;
+IdModule  = 8BitMixtapes_all:AUDIO-JACK-TRS-SMD;
+EndCmp
+
+EndListe

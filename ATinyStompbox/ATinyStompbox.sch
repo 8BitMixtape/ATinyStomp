@@ -46,10 +46,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L POT Main1
+L POT POT2-Main1
 U 1 1 5B46F160
 P 5200 6150
-F 0 "Main1" V 5025 6150 50  0000 C CNN
+F 0 "POT2-Main1" V 5025 6150 50  0000 C CNN
 F 1 "POT 10K lin Sleeve" V 5100 6150 50  0000 C CNN
 F 2 "8BitMixtape_Stomp:Mixtape_Pot_Alps_RK09L_Sleve_Single_Horizontal" H 5200 6150 50  0001 C CNN
 F 3 "" H 5200 6150 50  0001 C CNN
@@ -57,10 +57,10 @@ F 3 "" H 5200 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT CV1
+L POT POT1-CV1
 U 1 1 5B46F2B5
 P 5200 3950
-F 0 "CV1" V 5025 3950 50  0000 C CNN
+F 0 "POT1-CV1" V 5025 3950 50  0000 C CNN
 F 1 "POT 10K lin" V 5100 3950 50  0000 C CNN
 F 2 "8BitMixtapes_all:Mixtape_Pot_Alps_RK09K_Horizontal" H 5200 3950 50  0001 C CNN
 F 3 "" H 5200 3950 50  0001 C CNN
@@ -68,10 +68,10 @@ F 3 "" H 5200 3950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT Vol1
+L POT POT3-Vol1
 U 1 1 5B46F319
 P 7750 3800
-F 0 "Vol1" V 7575 3800 50  0000 C CNN
+F 0 "POT3-Vol1" V 7575 3800 50  0000 C CNN
 F 1 "POT 10k" V 7650 3800 50  0000 C CNN
 F 2 "8BitMixtapes_all:Mixtape_Pot_Alps_RK09K_Horizontal" H 7750 3800 50  0001 C CNN
 F 3 "" H 7750 3800 50  0001 C CNN
@@ -559,17 +559,6 @@ $EndComp
 Text GLabel 7100 950  0    60   Input ~ 0
 Stomp_from_PCB
 $Comp
-L LED D2
-U 1 1 5B4940CC
-P 8100 1150
-F 0 "D2" H 8100 1250 50  0000 C CNN
-F 1 "LED" H 8100 1050 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm_FlatTop" H 8100 1150 50  0001 C CNN
-F 3 "" H 8100 1150 50  0001 C CNN
-	1    8100 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR018
 U 1 1 5B494619
 P 6900 1250
@@ -773,7 +762,7 @@ U 1 1 5B4ACB0E
 P 3000 1350
 F 0 "D1" H 3000 1450 50  0000 C CNN
 F 1 "LED" H 3000 1250 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 3000 1350 50  0001 C CNN
+F 2 "LEDs:LED_PLCC_2835_Handsoldering" H 3000 1350 50  0001 C CNN
 F 3 "" H 3000 1350 50  0001 C CNN
 	1    3000 1350
 	0    -1   -1   0   
@@ -1113,10 +1102,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 3100 7300 3650
 Wire Wire Line
-	7950 1150 7750 1150
-Wire Wire Line
-	8250 1150 8700 1150
-Wire Wire Line
 	6700 1550 7350 1550
 Wire Wire Line
 	7350 1550 7350 1400
@@ -1342,13 +1327,10 @@ F 3 "" H 7400 2150 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7400 2150 7100 2150
-Text GLabel 7900 950  2    60   Input ~ 0
+Text GLabel 7900 750  2    60   Input ~ 0
 Jack_OUT
 Wire Wire Line
-	7750 950  7900 950 
-Wire Wire Line
 	7800 650  7800 950 
-Connection ~ 7800 950 
 Text GLabel 8350 2200 0    60   Input ~ 0
 Jack_OUT
 Wire Wire Line
@@ -1512,10 +1494,6 @@ Wire Wire Line
 	4600 1550 5100 1550
 Wire Wire Line
 	4600 1650 4700 1650
-Wire Wire Line
-	5000 2300 5100 2300
-Wire Wire Line
-	5100 2300 5100 1550
 Connection ~ 4700 1550
 $Comp
 L CONN_01X02 J18
@@ -1697,4 +1675,34 @@ Wire Wire Line
 	8500 5700 8500 5550
 Wire Wire Line
 	8500 5550 8350 5550
+Wire Wire Line
+	5100 1550 5100 2200
+Connection ~ 5100 2200
+Wire Wire Line
+	7900 750  7800 750 
+Connection ~ 7800 750 
+Wire Wire Line
+	7800 950  7750 950 
+Wire Wire Line
+	7800 1150 7750 1150
+$Comp
+L LED_Dual_AAC D2
+U 1 1 5B523102
+P 8100 1150
+F 0 "D2" H 8100 1375 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 8100 900 50  0000 C CNN
+F 2 "8BitMixtape_Stomp:Stomp_LED-Ring_DUAL" H 8100 1150 50  0001 C CNN
+F 3 "" H 8100 1150 50  0001 C CNN
+	1    8100 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 1150 8550 1150
+Wire Wire Line
+	8550 1050 8550 1250
+Wire Wire Line
+	8550 1250 8400 1250
+Wire Wire Line
+	8400 1050 8550 1050
+Connection ~ 8550 1150
 $EndSCHEMATC
